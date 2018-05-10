@@ -1,0 +1,338 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "CirceRounded";
+  line-height: normal;
+  font-weight: normal;
+  color: #333;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  background-image: url(../img/all_bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.header__wrapper,
+.header__nav_wrapper,
+.free-test__wrapper,
+.for-what__wrapper,
+.how-work__wrapper,
+.for-whom__wrapper,
+.models__wrapper,
+.delivery__wrapper,
+.footer__wrapper {
+  width: 940px;
+  margin: 0 auto;
+}
+
+
+
+
+/* H E A D E R */
+
+.header__nav {
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  padding: 0 30px;
+}
+
+.header__nav_box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.header__nav-list {
+  display: flex;
+  flex-direction: row;
+  padding-top: 43.67px;
+}
+
+.header__title img {
+  width: 220px;
+  height: 61px;
+  margin-top: 22px;
+  margin-bottom: 17px;
+}
+
+.header__nav-item {
+  margin-right: 60px;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header__nav_box-link {
+  font-size: 18px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #7950A0;
+  padding-top: 40.67px;
+}
+
+.header__nav-item:nth-child(3) {
+  margin-right: 90px;
+}
+
+.header__nav-item:last-child {
+  margin-right: 0;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__content-subtitle {
+  padding-top: 100px;
+  text-align: left;
+  font-size: 21px;
+}
+
+.header__content-title {
+  font-family: "LifehackSans-Regular";
+  font-size: 75px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.header__price {
+  font-size: 35px;
+  color: #73489c;
+}
+
+.header__price-num {
+  font-size: 45px;
+  color: #73489c;
+}
+
+.header__button-box {
+  width: 660px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.header__button {
+  display: block;
+  width: 258px;
+  height: 62px;
+  border-radius: 50px 50px;
+  background-color: #7950A0;
+  color: #fff;
+  padding-left: 50px;
+  padding-top: 21px;
+}
+
+.header__button--video {
+  width: 377px;
+  background-color: transparent;
+  border: 1px solid #7950A0;
+  color: #7950A0;
+}
+
+.header__content-img {
+  margin-top: 50px;
+}
+
+
+/* F R E E - T E S T */
+
+.free-test {
+  background-image: url(../img/freetest_bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.free-test__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.free-test__content-title {
+  font-family: "LifehackSans-Regular";
+  font-size: 41px;
+  color: #fff;
+  padding-top: 25px;
+}
+
+.free-test__content-text,
+.free-test__content-text a {
+  font-size: 18px;
+  color: #fff;
+}
+
+.free-test__content-text a {
+  font-size: 18px;
+  color: #fff;
+  border-bottom: 1px dashed #fff;
+}
+
+.free-test__form input {
+  width: 140px;
+  height: 40px;
+  margin-top: 64px;
+}
+
+.free-test__form-link {
+  display: block;
+  width: 220px;
+  height: 59px;
+}
+
+.free-test__form-label {
+  position: relative;
+  top: -30px;
+  left: -145px;
+  color: #fff;
+  font-size: 14px;
+}
+
+
+/* F O R - W H A T */
+
+.for-what {
+  padding: 100px 0;
+}
+
+.for-what__title {
+  font-family: "LifehackSans-Regular";
+  font-size: 60px;
+  text-align: center;
+}
+
+.for-what__subtitle {
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.for-what__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 65px;
+}
+
+.for-what__item-title {
+  width: 140px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.for-what__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.for-what__item:last-child {
+  margin-right: 0;
+}
+
+.for-what__item img {
+  width: 68px;
+  margin: 0 auto 20px;
+}
+
+.for-what__item:last-child .for-what__item-title {
+  width: 120px;
+}
+
+.for-what__box {
+  width: 940px;
+  height: 260px;
+  background-color: #FFFFFF;
+  border: 2px solid #7FC876;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  margin-top: 80px;
+  padding-top: 96px;
+}
+
+.for-what__box-text {
+  width: 620px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* H O W - W O R K */
+
+.how-work {
+  background-image: url(../img/howwork_bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+
+.how-work__title {
+  font-family: "LifehackSans-Regular";
+  font-size: 60px;
+  text-align: center;
+  color: #0A4A17;
+}
+
+.how-work__subtitle {
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #0A4A17;
+}
+
+.how-work__box-top {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+}
+
+.how-work__box-video {
+  width: 540px;
+  height: 371px;
+  border: 2px solid #0A4A17;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.how-work__box-video-text {
+  width: 320px;
+}
+
+.how-work__box-video-text__title {
+  font-family: "LifehackSans-Regular";
+  font-size: 45px;
+  color: #0A4A17;
+}
+
+.how-work__box-video-text__row {
+  color: #0A4A17;
+}
+
+.row--bottom {
+  text-align: right;
+  margin-top: 175px;
+}
+
+.row--bottom a {
+  color: #007A18;
+  border=bottom: 1px dashed #007A18;
+}
