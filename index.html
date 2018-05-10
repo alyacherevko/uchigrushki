@@ -4,43 +4,55 @@
 <head>
   <meta charset="UTF-8">
   <title>Интерактивная песочница</title>
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/fonts.css">
 </head>
 
 <body>
   <header class="header">
-    <div class="header__wrapper">
-      <nav class="header__nav">
-        <h1 class="header__title"><img src="" alt="Клуб-магазин Учигрушки"></h1>
+    <nav class="header__nav">
+      <div class="header__nav_box">
+        <h1 class="header__title"><img src="assets/img/logo.svg" alt=""></h1>
         <ul class="header__nav-list">
           <li class="header__nav-item"><a href="">Как работает</a></li>
           <li class="header__nav-item"><a href="">Модели</a></li>
           <li class="header__nav-item"><a href="">Доставка</a></li>
-          <li class="header__nav-item"><a href="">8 (495) 177-2795</a></li>
         </ul>
-      </nav>
+        <a href="" class="header__nav_box-link">8-(495)-177-27-95</a>
+      </div>
+    </nav>
+    <div class="header__wrapper">
       <div class="header__content">
         <div class="header__content-text">
           <h3 class="header__content-subtitle">Комплекс для развития детей дошкольного возраста</h3>
           <h2 class="header__content-title">Интерактивная песочница</h2>
-          <span class="header__price">от 160 000 </span>
-          <a href="" class="header__button">Посмотреть модели</a>
-          <a href="" class="header__button">Посмотреть видеопрезентацию</a>
+          <span class="header__price">от <span class="header__price-num">160 000</span></span>
+          <div class="header__button-box">
+            <a href="" class="header__button">Посмотреть модели</a>
+            <a href="" class="header__button header__button--video">Посмотреть видеопрезентацию</a>
+          </div>
         </div>
-        <img src="" alt="Песочница Островок" class="header__content-img">
+        <img src="./assets/img/ostrovok.png" alt="Песочница Островок" class="header__content-img">
       </div>
     </div>
   </header>
   <section class="free-test">
     <div class="free-test__wrapper">
       <div class="free-test__content">
-        <h4 class="free-test__content-title">Бесплатный тест</h4>
-        <p class="free-test__content-text">В шоуруме по адресу <a href="">ул. Маршала Захарова, 2</a></p>
+        <img src="assets/img/freetest_boy.png" alt="">
+        <div class="free-test__box">
+          <h4 class="free-test__content-title">Бесплатный тест</h4>
+          <p class="free-test__content-text">В шоуруме по адресу <br><a href="">ул. Маршала Захарова, 2</a></p>
+        </div>
         <form action="" class="free-test__form">
-          <label for="">Имя</label>
+
           <input type="text" id="free-test__name">
-          <label for="">Телефон</label>
+          <label for="free-test__name" class="free-test__form-label">Имя</label>
+
           <input type="text" id="free-test__tel">
-          <button><a href="">Записаться</a></button>
+          <label for="free-test__tel" class="free-test__form-label">Телефон</label>
+          <button><a href="" class="free-test__form-link">Записаться</a></button>
         </form>
       </div>
     </div>
@@ -49,15 +61,15 @@
     <div class="for-what__wrapper">
       <h2 class="for-what__title">Для чего</h2>
       <h3 class="for-what__subtitle">Интерактивная песочница</h3>
-      <ul>
-        <li><img src="" alt="">
-          <h5>Развивает воображение детям</h5></li>
-        <li><img src="" alt="">
-          <h5>Мелкая моторика улучшает обучение</h5></li>
-        <li><img src="" alt="">
-          <h5>Развивает ребенка через простые игры</h5></li>
-        <li><img src="" alt="">
-          <h5>Учит решать сложные задачи</h5></li>
+      <ul class="for-what__list">
+        <li class="for-what__item"><img src="assets/img/idea.png" alt="">
+          <h5 class="for-what__item-title">Развивает воображение детям</h5></li>
+        <li class="for-what__item"><img src="assets/img/activity.png" alt="">
+          <h5 class="for-what__item-title">Мелкая моторика улучшает обучение</h5></li>
+        <li class="for-what__item"><img src="assets/img/evolve.png" alt="">
+          <h5 class="for-what__item-title">Развивает ребенка через простые игры</h5></li>
+        <li class="for-what__item"><img src="assets/img/learn.png" alt="">
+          <h5 class="for-what__item-title">Учит решать сложные задачи</h5></li>
       </ul>
       <div class="for-what__box">
         <p class="for-what__box-text">Интерактивная песочница — комплекс, который с помощью технологий дополненной реальности обычный песок превращает в земную поверхность с озерами и горами, вулканами и долинами.</p>
@@ -74,7 +86,7 @@
           <h4 class="how-work__box-video-text__title">Посмотрите в действии</h4>
           <p class="how-work__box-video-text__row">С помощью технологий дополненной реальности обычный песок превращеется в земную поверхность с озерами и горами, вулканами и долинами.</p>
           <p class="how-work__box-video-text__row row--bottom">Подробную инструкцию и характеристики вы можете прочитать в презентации
-            <a href="">Скачать презентацию (4.5Mb)</a></p>
+            <br><a href="">Скачать презентацию (4.5Mb)</a></p>
         </div>
       </div>
       <div class="how-work__box-bottom">
@@ -152,8 +164,10 @@
         <h4 class="contacts__map-left-title">Реквизиты</h4>
         <p class="contacts__map-left-row">ООО «НПП «Лютровник»»</p>
         <p class="contacts__map-left-row">ОГРН: 1157746584654</p>
-        <p class="contacts__map-left-row">Фактический адрес: <br>Москва, ул. Маршала Захарова, 2</p>
-        <p class="contacts__map-left-row">Юридический адрес: <br>Москва, Филевский б-р, 40, пом. Vа, ком. 9</p>
+        <p class="contacts__map-left-row">Фактический адрес:
+          <br>Москва, ул. Маршала Захарова, 2</p>
+        <p class="contacts__map-left-row">Юридический адрес:
+          <br>Москва, Филевский б-р, 40, пом. Vа, ком. 9</p>
       </div>
       <div class="contacts__map-right">
         <h4 class="contacts__map-right-title">Шоурум</h4>
@@ -163,8 +177,11 @@
     </div>
   </section>
   <footer class="footer">
-    <p class="footer__title">Официальный партнер Инновации детям</p>
-    <a href="www.playstand.ru">www.playstand.ru</a>
+    <div class="footer__wrapper">
+      <p class="footer__title">Официальный партнер Инновации детям</p>
+      <a href="www.playstand.ru">www.playstand.ru</a>
+    </div>
   </footer>
 </body>
+
 </html>
