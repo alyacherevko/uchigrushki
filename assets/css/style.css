@@ -33,10 +33,15 @@ html {
 .for-whom__wrapper,
 .models__wrapper,
 .delivery__wrapper,
+.contacts__wrapper,
 .footer__wrapper {
   width: 940px;
   margin: 0 auto;
 }
+
+
+
+
 
 
 
@@ -151,6 +156,10 @@ html {
 }
 
 
+
+
+
+
 /* F R E E - T E S T */
 
 .free-test {
@@ -206,6 +215,10 @@ html {
 }
 
 
+
+
+
+
 /* F O R - W H A T */
 
 .for-what {
@@ -219,7 +232,7 @@ html {
 }
 
 .for-what__subtitle {
-  font-size: 22px;
+  font-size: 24px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -275,6 +288,10 @@ html {
   font-size: 18px;
 }
 
+
+
+
+
 /* H O W - W O R K */
 
 .how-work {
@@ -293,7 +310,7 @@ html {
 }
 
 .how-work__subtitle {
-  font-size: 22px;
+  font-size: 24px;
   text-transform: uppercase;
   text-align: center;
   color: #0A4A17;
@@ -303,6 +320,7 @@ html {
   display: flex;
   flex-direction: row;
   margin-top: 60px;
+  margin-bottom: 75px;
 }
 
 .how-work__box-video {
@@ -318,6 +336,7 @@ html {
 }
 
 .how-work__box-video-text__title {
+  position: relative;
   font-family: "LifehackSans-Regular";
   font-size: 45px;
   color: #0A4A17;
@@ -334,5 +353,449 @@ html {
 
 .row--bottom a {
   color: #007A18;
-  border=bottom: 1px dashed #007A18;
+  border-bottom: 1px dashed #007A18;
+}
+
+.how-work__box-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.how-work__box-bottom--left,
+.how-work__box-bottom--middle,
+.how-work__box-bottom--right {
+  width: 313px;
+}
+
+.how-work__box-bottom--middle img {
+  display: block;
+  width: 277px;
+}
+
+.box-bottom__content-title {
+  font-size: 15px;
+  line-height: 20px;
+  font-family: "CirceRounded-Bold";
+  color: #0A4A17;
+  margin-bottom: 5px;
+}
+
+.box-bottom__content-text {
+  position: relative;
+  width: 300px;
+  font-size: 15px;
+  color: #0A4A17;
+  line-height: 20px;
+}
+
+.box-bottom__content--top {
+  margin-bottom: 60px;
+}
+
+.box-bottom__content--top-line3 {
+  margin-bottom: 85px;
+}
+
+.how-work__box-video-text__title::after {
+  position: absolute;
+  top: 20px;
+  left: -20px;
+  content: "";
+  display: block;
+  width: 400px;
+  height: 200px;
+  background-image: url(../img/line1.svg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.box-bottom__content-title--line2,
+.box-bottom__content-title--line3,
+.box-bottom__content-title--line4 {
+  position: relative;
+}
+
+.box-bottom__content-title--line2::after {
+  position: absolute;
+  top: -32px;
+  left: 42px;
+  content: "";
+  display: block;
+  width: 400px;
+  height: 68px;
+  background-image: url(../img/line2.svg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.box-bottom__content-title--line3::after {
+  position: absolute;
+  left: -94px;
+  top: 8px;
+  content: "";
+  display: block;
+  width: 95px;
+  height: 26px;
+  background-image: url(../img/line3.svg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.box-bottom__content-title--line4::after {
+  position: absolute;
+  top: 6px;
+  left: -101px;
+  content: "";
+  display: block;
+  width: 101px;
+  height: 95px;
+  background-image: url(../img/line4.svg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+/* F O R - W H O M */
+
+.for-whom {
+  padding: 100px 0;
+}
+
+.for-whom__title {
+  font-family: "LifehackSans-Regular";
+  font-size: 60px;
+  text-align: center;
+}
+
+.for-whom__subtitle {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.for-whom__box-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.for-whom__box-img {
+  width: 460px;
+  height: 316px;
+  background-image: url(../img/forwhom.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid #7FC974;
+  border-radius: 15px;
+  margin-right: 60px;
+}
+
+.for-whom__box-list {
+  width: 262px;
+}
+
+.for-whom__box-item {
+  position: relative;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333;
+  margin-bottom: 27px;
+}
+
+.for-whom__box-item::before {
+  position: absolute;
+  top: 6px;
+  left: -18px;
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-image: url(../img/point.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.for-whom__box-bottom {
+  width: 940px;
+  height: 259px;
+  background: #FFF;
+  border: 2px solid #7FC876;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  margin-top: 60px;
+}
+
+.for-whom__box-bottom-text {
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  padding-top: 83.5px;
+}
+
+/* M O D E L S */
+
+.models {
+  padding: 100px 0;
+  background-image: url(../img/models_bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.models__title {
+  font-family: "LifehackSans-Regular";
+  font-size: 60px;
+  line-height: 68px;
+  text-align: center;
+  color: #733000 ;
+  margin-bottom: 60px;
+}
+
+.tabs__content-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sandbox-item {
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.sandbox-item--title {
+  font-family: "CirceRounded-Bold";
+}
+
+.sandbox-price {
+  font-size: 35px;
+  color: #7950A0;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.sandbox-price--sign {
+  text-align: center;
+  font-size: 20px;
+  color: #7950A0;
+}
+
+
+/* D E L I V E R Y */
+
+.delivery {
+  padding: 100px 0;
+  background-image: url(../img/contacts_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.delivery__box {
+  width: 500px;
+  margin: 0 auto;
+  background: #fff;
+  border: 2px solid #7FC876;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  padding: 80px 0;
+}
+
+.delivery__box-title {
+  font-family: "LifehackSans-Regular";
+  line-height: 68px;
+  font-size: 60px;
+  text-align: center;
+}
+
+
+.delivery__box-title {
+  display: block;
+  margin: 0 auto;
+  width: 256px;
+}
+
+.delivery__box-item {
+  line-height: 23px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.delivery__box-item span {
+  font-family: "CirceRounded-Bold";
+}
+
+.delivery__box-link {
+  display: block;
+  width: 220px;
+  height: 56px;
+  background-color: #7950A0;
+  border-radius: 50px 50px;
+  margin: 40px auto 0;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 18px;
+}
+
+
+/* C O N T A C T S */
+
+.contacts {
+  padding: 100px 0;
+}
+
+.contacts__title {
+  font-family: "LifehackSans-Regular";
+  font-size: 60px;
+  line-height: 68px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.contacts__map {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contacts__map-left {
+  width: 380px;
+  padding: 60px;
+  background: #FFFFFF;
+border: 2px solid #7FC876;
+box-sizing: border-box;
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+border-radius: 25px;
+}
+
+.contacts__map-right {
+  width: 380px;
+  height: 250px;
+  padding: 60px;
+  background: #FFFFFF;
+border: 2px solid #7FC876;
+box-sizing: border-box;
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+border-radius: 25px;
+text-align: center;
+color: #000;
+}
+
+.contacts__map-left-title {
+  color: #000;
+  font-family: "CirceRounded-Bold";
+  font-size: 18px;
+}
+
+.contacts__map-right-title {
+  font-family: "CirceRounded-Bold";
+}
+
+.contacts__map-right-row--1 {
+  margin-bottom: 10px;
+}
+
+/* F O O T E R */
+
+.footer {
+  padding-top: 19px;
+  height: 81px;
+  background-color: #fff;
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer__title {
+  color: #000;
+  font-size: 16px;
+  text-align: center;
+}
+
+.footer__link {
+  display: block;
+  color: #498ABD;
+  width: 120px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+/* T A B S */
+
+.tabs {
+    max-width: 940px;
+}
+
+.tabs__caption {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    position: relative;
+    margin: -1px 0 0 -1px;
+}
+
+.tabs__caption li:last-child:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: -2px;
+    z-index: -1;
+    height: 5px;
+    background: #7DCA86;
+}
+
+.tabs__caption:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.tabs__caption li {
+    padding: 22px 0 27px;
+    margin-bottom: -8px;
+    margin-left: 1px;
+    color: #FFF;
+    border-width: 2px 2px 0;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    width: 234px;
+    font-size: 27px;
+}
+
+.tabs__caption li:not(.active) {
+    cursor: pointer;
+}
+
+.tabs__caption .active {
+    background: #FFF;
+    color: #fe8a39;
+    left: -1px;
+    transition: 0.3s ease;
+}
+
+
+
+.tabs__content {
+    display: none;
+    background: #FFF;
+    border-radius: 10px;
+    position: relative;
+    width: 939.5px;
+    height: 869px;
+    padding: 0 60px;
+}
+
+.tabs__content.active {
+    display: block;
+    left: 0px;
 }

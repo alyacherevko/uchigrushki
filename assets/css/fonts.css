@@ -9,8 +9,18 @@
 }
 
 @font-face {
+  font-family: "CirceRounded-Bold";
+  src: url(../fonts/Circe_Rounded_Bold.woff);
+}
+
+@font-face {
   font-family: "LifehackSans-Regular";
   src: url(../fonts/LifehackSans-Regular.woff2);
+}
+
+@font-face {
+  font-family: "LifehackSans-Medium";
+  src: url(../fonts/LifehackSans-Medium.ttf);
 }
 
 
