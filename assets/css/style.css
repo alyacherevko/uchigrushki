@@ -194,16 +194,33 @@ html {
   border-bottom: 1px dashed #fff;
 }
 
+.free-test__form {
+  margin-left: 40px;
+}
+
 .free-test__form input {
   width: 140px;
   height: 40px;
   margin-top: 64px;
+  margin-left: -15px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  padding: 0 8px;
 }
 
+
+
 .free-test__form-link {
-  display: block;
-  width: 220px;
-  height: 59px;
+  width: 158px;
+  height: 50px;
+  background-color: #7950A0;
+  border: 1px solid #fff;
+  border-radius: 50px;
+}
+
+.free-test__form-link a {
+  font-size: 16px;
+  color: #fff;
 }
 
 .free-test__form-label {
